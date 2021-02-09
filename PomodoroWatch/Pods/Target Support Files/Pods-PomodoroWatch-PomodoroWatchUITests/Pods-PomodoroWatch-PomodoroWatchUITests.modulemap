@@ -1,0 +1,6 @@
+framework module Pods_PomodoroWatch_PomodoroWatchUITests {
+  umbrella header "Pods-PomodoroWatch-PomodoroWatchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

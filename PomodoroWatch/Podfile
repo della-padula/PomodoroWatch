@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PomodoroWatch' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PomodoroWatch
+  pod 'SnapKit'
+
+  target 'PomodoroWatchTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PomodoroWatchUITests' do
+    # Pods for testing
+  end
+
+end
+
+target 'PomodoroWatch WatchKit App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PomodoroWatch WatchKit App
+
+end
+
+target 'PomodoroWatch WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PomodoroWatch WatchKit Extension
+
+end

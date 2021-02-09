@@ -3,14 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD246798D36C6A638312E2E /* Pods_PomodoroWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFD500CD0C3F3A73C8773E /* Pods_PomodoroWatch.framework */; };
+		2C8E5C0067DAE3D29E03FE94 /* Pods_PomodoroWatch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A5D47A2B5CD7F15AF359F5 /* Pods_PomodoroWatch_WatchKit_Extension.framework */; };
+		3F5556CBF8EEFD649B18A7D3 /* Pods_PomodoroWatch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558F5390DA5BE270EAF05F70 /* Pods_PomodoroWatch_WatchKit_App.framework */; };
+		85FAE3717C96412030992593 /* Pods_PomodoroWatch_PomodoroWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35213C7381537A23814BDC80 /* Pods_PomodoroWatch_PomodoroWatchUITests.framework */; };
 		B0C30F4125D26E3200C2BAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F4025D26E3200C2BAEE /* AppDelegate.swift */; };
-		B0C30F4325D26E3200C2BAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F4225D26E3200C2BAEE /* SceneDelegate.swift */; };
 		B0C30F4525D26E3200C2BAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F4425D26E3200C2BAEE /* ViewController.swift */; };
-		B0C30F4825D26E3200C2BAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C30F4625D26E3200C2BAEE /* Main.storyboard */; };
 		B0C30F4A25D26E3400C2BAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C30F4925D26E3400C2BAEE /* Assets.xcassets */; };
 		B0C30F4D25D26E3400C2BAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C30F4B25D26E3400C2BAEE /* LaunchScreen.storyboard */; };
 		B0C30F5825D26E3400C2BAEE /* PomodoroWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F5725D26E3400C2BAEE /* PomodoroWatchTests.swift */; };
@@ -24,6 +26,7 @@
 		B0C30F8025D26E3400C2BAEE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F7F25D26E3400C2BAEE /* NotificationController.swift */; };
 		B0C30F8225D26E3400C2BAEE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F8125D26E3400C2BAEE /* ComplicationController.swift */; };
 		B0C30F8425D26E3500C2BAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C30F8325D26E3500C2BAEE /* Assets.xcassets */; };
+		D4135CAC3FC622F8DA825640 /* Pods_PomodoroWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BCC038166A2678CF5B2D94 /* Pods_PomodoroWatchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,11 +86,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09BD6586263E7D7281346875 /* Pods-PomodoroWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatchTests.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatchTests/Pods-PomodoroWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		09E39AD2C142D057EA03B2AD /* Pods-PomodoroWatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch WatchKit App/Pods-PomodoroWatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		0E58C48DC61E9F8C2B319038 /* Pods-PomodoroWatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch WatchKit App/Pods-PomodoroWatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		15010B8E99D0A31134A97092 /* Pods-PomodoroWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch/Pods-PomodoroWatch.release.xcconfig"; sourceTree = "<group>"; };
+		35213C7381537A23814BDC80 /* Pods_PomodoroWatch_PomodoroWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroWatch_PomodoroWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558F5390DA5BE270EAF05F70 /* Pods_PomodoroWatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroWatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBFD500CD0C3F3A73C8773E /* Pods_PomodoroWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D12AAE0E44842F876E1F7C /* Pods-PomodoroWatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch WatchKit Extension/Pods-PomodoroWatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		71DCA42D6ADF73A6C1353447 /* Pods-PomodoroWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatchTests.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatchTests/Pods-PomodoroWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E12F9037194DF0CD4F734A0 /* Pods-PomodoroWatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch WatchKit Extension/Pods-PomodoroWatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8816391B5551CDF89E95A3C5 /* Pods-PomodoroWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch/Pods-PomodoroWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A5D47A2B5CD7F15AF359F5 /* Pods_PomodoroWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroWatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BCC038166A2678CF5B2D94 /* Pods_PomodoroWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C30F3D25D26E3200C2BAEE /* PomodoroWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C30F4025D26E3200C2BAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0C30F4225D26E3200C2BAEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B0C30F4425D26E3200C2BAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0C30F4725D26E3200C2BAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0C30F4925D26E3400C2BAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C30F4C25D26E3400C2BAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0C30F4E25D26E3400C2BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,13 +123,24 @@
 		B0C30F8325D26E3500C2BAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C30F8525D26E3500C2BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C30F8625D26E3500C2BAEE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C35ACF59BBA9E28A5434FD86 /* Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCFB9A68C6C0BDFB682BF74A /* Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E30F302FEE34173309E9698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5556CBF8EEFD649B18A7D3 /* Pods_PomodoroWatch_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0C30F3A25D26E3200C2BAEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD246798D36C6A638312E2E /* Pods_PomodoroWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4135CAC3FC622F8DA825640 /* Pods_PomodoroWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FAE3717C96412030992593 /* Pods_PomodoroWatch_PomodoroWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +164,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8E5C0067DAE3D29E03FE94 /* Pods_PomodoroWatch_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A209BCC6D27771D559004A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8816391B5551CDF89E95A3C5 /* Pods-PomodoroWatch.debug.xcconfig */,
+				15010B8E99D0A31134A97092 /* Pods-PomodoroWatch.release.xcconfig */,
+				09E39AD2C142D057EA03B2AD /* Pods-PomodoroWatch WatchKit App.debug.xcconfig */,
+				0E58C48DC61E9F8C2B319038 /* Pods-PomodoroWatch WatchKit App.release.xcconfig */,
+				69D12AAE0E44842F876E1F7C /* Pods-PomodoroWatch WatchKit Extension.debug.xcconfig */,
+				7E12F9037194DF0CD4F734A0 /* Pods-PomodoroWatch WatchKit Extension.release.xcconfig */,
+				C35ACF59BBA9E28A5434FD86 /* Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig */,
+				FCFB9A68C6C0BDFB682BF74A /* Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig */,
+				71DCA42D6ADF73A6C1353447 /* Pods-PomodoroWatchTests.debug.xcconfig */,
+				09BD6586263E7D7281346875 /* Pods-PomodoroWatchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EE5478BBF18423F6CB96EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DBFD500CD0C3F3A73C8773E /* Pods_PomodoroWatch.framework */,
+				558F5390DA5BE270EAF05F70 /* Pods_PomodoroWatch_WatchKit_App.framework */,
+				A4A5D47A2B5CD7F15AF359F5 /* Pods_PomodoroWatch_WatchKit_Extension.framework */,
+				35213C7381537A23814BDC80 /* Pods_PomodoroWatch_PomodoroWatchUITests.framework */,
+				A5BCC038166A2678CF5B2D94 /* Pods_PomodoroWatchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0C30F3425D26E3200C2BAEE = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +209,8 @@
 				B0C30F6B25D26E3400C2BAEE /* PomodoroWatch WatchKit App */,
 				B0C30F7A25D26E3400C2BAEE /* PomodoroWatch WatchKit Extension */,
 				B0C30F3E25D26E3200C2BAEE /* Products */,
+				5A209BCC6D27771D559004A5 /* Pods */,
+				9EE5478BBF18423F6CB96EEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,9 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				B0C30F4025D26E3200C2BAEE /* AppDelegate.swift */,
-				B0C30F4225D26E3200C2BAEE /* SceneDelegate.swift */,
 				B0C30F4425D26E3200C2BAEE /* ViewController.swift */,
-				B0C30F4625D26E3200C2BAEE /* Main.storyboard */,
 				B0C30F4925D26E3400C2BAEE /* Assets.xcassets */,
 				B0C30F4B25D26E3400C2BAEE /* LaunchScreen.storyboard */,
 				B0C30F4E25D26E3400C2BAEE /* Info.plist */,
@@ -230,10 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C30F9125D26E3500C2BAEE /* Build configuration list for PBXNativeTarget "PomodoroWatch" */;
 			buildPhases = (
+				AA4EB86A12FB9FD5BE0771DB /* [CP] Check Pods Manifest.lock */,
 				B0C30F3925D26E3200C2BAEE /* Sources */,
 				B0C30F3A25D26E3200C2BAEE /* Frameworks */,
 				B0C30F3B25D26E3200C2BAEE /* Resources */,
 				B0C30F9025D26E3500C2BAEE /* Embed Watch Content */,
+				0D8E29A55635D0A38068DE74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C30F9425D26E3500C2BAEE /* Build configuration list for PBXNativeTarget "PomodoroWatchTests" */;
 			buildPhases = (
+				B71515739070F78416E7FB93 /* [CP] Check Pods Manifest.lock */,
 				B0C30F4F25D26E3400C2BAEE /* Sources */,
 				B0C30F5025D26E3400C2BAEE /* Frameworks */,
 				B0C30F5125D26E3400C2BAEE /* Resources */,
@@ -267,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C30F9725D26E3500C2BAEE /* Build configuration list for PBXNativeTarget "PomodoroWatchUITests" */;
 			buildPhases = (
+				EBEB3FB1CBDC11A561B76BBC /* [CP] Check Pods Manifest.lock */,
 				B0C30F5A25D26E3400C2BAEE /* Sources */,
 				B0C30F5B25D26E3400C2BAEE /* Frameworks */,
 				B0C30F5C25D26E3400C2BAEE /* Resources */,
+				F0A53F42598B2DD1279BD2B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,8 +347,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C30F8D25D26E3500C2BAEE /* Build configuration list for PBXNativeTarget "PomodoroWatch WatchKit App" */;
 			buildPhases = (
+				0EEDFFC396E67C9C6267E76A /* [CP] Check Pods Manifest.lock */,
 				B0C30F6525D26E3400C2BAEE /* Resources */,
 				B0C30F8C25D26E3500C2BAEE /* Embed App Extensions */,
+				5E30F302FEE34173309E9698 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +366,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C30F8925D26E3500C2BAEE /* Build configuration list for PBXNativeTarget "PomodoroWatch WatchKit Extension" */;
 			buildPhases = (
+				90E075E7245974967BE61E37 /* [CP] Check Pods Manifest.lock */,
 				B0C30F7225D26E3400C2BAEE /* Sources */,
 				B0C30F7325D26E3400C2BAEE /* Frameworks */,
 				B0C30F7425D26E3400C2BAEE /* Resources */,
@@ -372,7 +437,6 @@
 			files = (
 				B0C30F4D25D26E3400C2BAEE /* LaunchScreen.storyboard in Resources */,
 				B0C30F4A25D26E3400C2BAEE /* Assets.xcassets in Resources */,
-				B0C30F4825D26E3200C2BAEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +473,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D8E29A55635D0A38068DE74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch/Pods-PomodoroWatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch/Pods-PomodoroWatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch/Pods-PomodoroWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EEDFFC396E67C9C6267E76A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroWatch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E075E7245974967BE61E37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroWatch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4EB86A12FB9FD5BE0771DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71515739070F78416E7FB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroWatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEB3FB1CBDC11A561B76BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroWatch-PomodoroWatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A53F42598B2DD1279BD2B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0C30F3925D26E3200C2BAEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -416,7 +627,6 @@
 			files = (
 				B0C30F4525D26E3200C2BAEE /* ViewController.swift in Sources */,
 				B0C30F4125D26E3200C2BAEE /* AppDelegate.swift in Sources */,
-				B0C30F4325D26E3200C2BAEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,14 +683,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0C30F4625D26E3200C2BAEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0C30F4725D26E3200C2BAEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0C30F4B25D26E3400C2BAEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -613,6 +815,7 @@
 		};
 		B0C30F8A25D26E3500C2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D12AAE0E44842F876E1F7C /* Pods-PomodoroWatch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +838,7 @@
 		};
 		B0C30F8B25D26E3500C2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E12F9037194DF0CD4F734A0 /* Pods-PomodoroWatch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -658,6 +862,7 @@
 		};
 		B0C30F8E25D26E3500C2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E39AD2C142D057EA03B2AD /* Pods-PomodoroWatch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,6 +883,7 @@
 		};
 		B0C30F8F25D26E3500C2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E58C48DC61E9F8C2B319038 /* Pods-PomodoroWatch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -699,6 +905,7 @@
 		};
 		B0C30F9225D26E3500C2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8816391B5551CDF89E95A3C5 /* Pods-PomodoroWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -720,6 +927,7 @@
 		};
 		B0C30F9325D26E3500C2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15010B8E99D0A31134A97092 /* Pods-PomodoroWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -742,6 +950,7 @@
 		};
 		B0C30F9525D26E3500C2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DCA42D6ADF73A6C1353447 /* Pods-PomodoroWatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -765,6 +974,7 @@
 		};
 		B0C30F9625D26E3500C2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BD6586263E7D7281346875 /* Pods-PomodoroWatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -789,6 +999,7 @@
 		};
 		B0C30F9825D26E3500C2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35ACF59BBA9E28A5434FD86 /* Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -811,6 +1022,7 @@
 		};
 		B0C30F9925D26E3500C2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFB9A68C6C0BDFB682BF74A /* Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
