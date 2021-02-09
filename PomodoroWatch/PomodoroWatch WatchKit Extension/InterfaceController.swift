@@ -17,7 +17,7 @@ class InterfaceController: WKInterfaceController {
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
-        WKInterfaceDevice.current().play(.notification)
+        WKInterfaceDevice.current().play(.click)
     }
     
     override func didDeactivate() {

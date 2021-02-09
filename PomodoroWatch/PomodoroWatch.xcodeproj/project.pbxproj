@@ -26,6 +26,8 @@
 		B0C30F8025D26E3400C2BAEE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F7F25D26E3400C2BAEE /* NotificationController.swift */; };
 		B0C30F8225D26E3400C2BAEE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30F8125D26E3400C2BAEE /* ComplicationController.swift */; };
 		B0C30F8425D26E3500C2BAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C30F8325D26E3500C2BAEE /* Assets.xcassets */; };
+		B0C30FB525D2755300C2BAEE /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30FB425D2755300C2BAEE /* UserBuilder.swift */; };
+		B0C30FBC25D2758100C2BAEE /* ModeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C30FBB25D2758100C2BAEE /* ModeBuilder.swift */; };
 		D4135CAC3FC622F8DA825640 /* Pods_PomodoroWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BCC038166A2678CF5B2D94 /* Pods_PomodoroWatchTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		B0C30F8325D26E3500C2BAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C30F8525D26E3500C2BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C30F8625D26E3500C2BAEE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B0C30FB425D2755300C2BAEE /* UserBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
+		B0C30FBB25D2758100C2BAEE /* ModeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeBuilder.swift; sourceTree = "<group>"; };
 		C35ACF59BBA9E28A5434FD86 /* Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFB9A68C6C0BDFB682BF74A /* Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig"; path = "Target Support Files/Pods-PomodoroWatch-PomodoroWatchUITests/Pods-PomodoroWatch-PomodoroWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +238,8 @@
 				B0C30F4925D26E3400C2BAEE /* Assets.xcassets */,
 				B0C30F4B25D26E3400C2BAEE /* LaunchScreen.storyboard */,
 				B0C30F4E25D26E3400C2BAEE /* Info.plist */,
+				B0C30FB425D2755300C2BAEE /* UserBuilder.swift */,
+				B0C30FBB25D2758100C2BAEE /* ModeBuilder.swift */,
 			);
 			path = PomodoroWatch;
 			sourceTree = "<group>";
@@ -625,8 +631,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C30FBC25D2758100C2BAEE /* ModeBuilder.swift in Sources */,
 				B0C30F4525D26E3200C2BAEE /* ViewController.swift in Sources */,
 				B0C30F4125D26E3200C2BAEE /* AppDelegate.swift in Sources */,
+				B0C30FB525D2755300C2BAEE /* UserBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

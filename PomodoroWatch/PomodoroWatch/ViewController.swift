@@ -16,6 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setMainLayout()
         setViewProperties()
+        
+        var userBuilder = UserBuilder()
+        userBuilder.setGoalMessage(message: "New Goal")
+        userBuilder.setStatusMessage(message: "New Status Message")
+        
+        let dennyUser = userBuilder.buildUser(name: "Denny")
+        dennyUser.debugUser()
     }
     
     private func setMainLayout() {
