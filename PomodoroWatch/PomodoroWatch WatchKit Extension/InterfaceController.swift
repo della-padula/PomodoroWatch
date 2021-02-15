@@ -5,23 +5,39 @@
 //  Created by Denny on 2021/02/09.
 //
 
-import WatchKit
 import Foundation
+import WatchConnectivity
+import WatchKit
 
-
-class InterfaceController: WKInterfaceController {
-
+class InterfaceController: WKInterfaceController, WCSessionDelegate {
+    var wcSession : WCSession!
+    @IBOutlet weak var textLabel: WKInterfaceLabel!
+    
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        super.awake(withContext: context)
     }
     
+    
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        WKInterfaceDevice.current().play(.click)
+        super.willActivate()
+        wcSession = WCSession.default
+        wcSession.delegate = self
+        wcSession.activate()
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
     }
-
+    
+    // MARK: WCSession Methods
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        let text = message["message"] as! String
+        textLabel.setText(text)
+        
+        WKInterfaceDevice.current().play(.click)
+    }
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
 }
